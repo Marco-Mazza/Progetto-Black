@@ -1,0 +1,90 @@
+:root {
+    --main: #2B9DF4;
+    --sec: white;
+}
+
+body {
+    background-color: black;
+}
+
+.bi-moon-fill {
+    transition: 500ms;
+}
+
+.text-blue {
+    color: var(--main);
+}
+
+.scrolled {
+    background-color: var(--sec) !important;
+    color: #2B9DF4 !important;
+    border-bottom: 2px solid #2B9DF4 !important;
+    transition: 500ms;
+}
+
+.bg-moon {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url(/media/moon.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-body {
+    width: 10vw;
+    height: 5%;
+    border-bottom: 1px var(--main) solid;
+}
+
+.little-border {
+    border-bottom: 1px var(--main) solid;
+}
+
+.vh-45 {
+    height: 45vh;
+}
+
+.vh-10 {
+    height: 20vh;
+    font-size: 30px;
+}
+
+.capsule {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(to right, #2b9df4 1px, transparent 4px) 0 0,
+        linear-gradient(to right, #2b9df4 1px, transparent 4px) 0 100%,
+        linear-gradient(to left, #2b9df4 1px, transparent 4px) 100% 0,
+        linear-gradient(to left, #2b9df4 1px, transparent 4px) 100% 100%,
+        linear-gradient(to bottom, #2b9df4 1px, transparent 4px) 0 0,
+        linear-gradient(to bottom, #2b9df4 1px, transparent 4px) 100% 0,
+        linear-gradient(to top, #2b9df4 1px, transparent 4px) 0 100%,
+        linear-gradient(to top, #2b9df4 1px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    text-decoration: none;
+}
+
+.bg-earth {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/media/sunrise-1765027_1920.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.ufo-line {
+    border-bottom: solid 5px;
+    border-image-source: linear-gradient(to right, #03030300, #030303ef, var(--main), #060707, #0c0b0b00);
+    border-image-slice: 20;
+    padding: 5px 20px;
+    margin: auto;
+}
